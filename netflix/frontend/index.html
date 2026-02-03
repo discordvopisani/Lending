@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>StreamX</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Stream<span>X</span></h1>
+    <a href="login.html" class="btn">Войти</a>
+  </header>
+<script>
+  if (!localStorage.getItem("user")) {
+    window.location.href = "login.html";
+  }
+</script>
+
+<h1>Добро пожаловать в StreamX 🎬</h1>
+<p id="user"></p>
+
+<script>
+  document.getElementById("user").innerText =
+    "Вы вошли как: " + localStorage.getItem("user");
+</script>
+
+  <section class="hero">
+    <h2>Фильмы и сериалы без ограничений</h2>
+    <p>Смотрите где угодно. Отменить можно в любой момент.</p>
+    <a href="subscribe.html" class="btn big">Оформить подписку</a>
+<section class="trending">
+  <h2>🔥 В тренде</h2>
+
+  <div class="movies">
+    <div class="movie">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/15cc0fee-2d8f-47a3-9651-23364b8e6fde/1920x" alt="Зверополис 2">
+      <p>Зверополис 2</p>
+    </div>
+
+    <div class="movie">
+      <img src="https://www.kinonews.ru/insimgs/2025/poster/poster136882_1.webp" alt="Аватар: Пламя и пепел">
+      <p>Аватар: Пламя и пепел</p>
+    </div>
+
+    <div class="movie">
+      <img src="https://www.kinonews.ru/insimgs/2025/poster/poster134811_1.webp" alt="Иллюзия обмана 3">
+      <p>Иллюзия обмана 3</p>
+    </div>
+  </div>
+</section>
+
+  </section>
+</body>
+</html>
