@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #141414;
+  color: #fff;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+
+  background-image: url("https://wallpapercave.com/wp/wp10615910.jpg");
+  background-size: cover;        /* чтобы картинка растягивалась */
+  background-position: center;   /* центр */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* красивый эффект при скролле */
+}
+/* Фон страницы */
+.login-page {
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Затемнение */
+.login-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+}
+
+/* Большой блок входа */
+.login-box {
+  position: relative;
+  z-index: 2;
+  width: 420px;
+  padding: 50px;
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* Заголовок */
+.login-box h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* Поля ввода */
+.login-box input {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+/* Кнопка */
+.login-box button {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  background: #e50914;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #f6121d;
+}
+.subscribe-page {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.sub-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.plan {
+  background: #111;
+  padding: 40px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+.plan h2 {
+  font-size: 26px;
+}
+
+.price {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #e50914;
+}
+
+.plan button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background: #e50914;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.plan button:hover {
+  background: #f6121d;
+}
+
+.popular {
+  border: 2px solid #e50914;
+  transform: scale(1.05);
+}
+.trending {
+  padding: 60px;
+  background: #000;
+  color: white;
+}
+
+.trending h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.movies {
+  display: flex;
+  gap: 20px;
+}
+
+.movie {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.movie:hover {
+  transform: scale(1.08);
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.movie p {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.logo span {
+  color: #E50914;
+}
+
+.btn {
+  background: #E50914;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
